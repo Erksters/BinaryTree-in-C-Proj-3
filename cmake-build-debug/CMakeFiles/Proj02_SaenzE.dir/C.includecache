@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/Bst.h
+stdio.h
+-
+stdlib.h
+-
+
+/cygdrive/c/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/io.h
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+
+/cygdrive/c/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/proj2.c
+stdio.h
+-
+io.h
+/cygdrive/c/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/io.h
+Bst.h
+/cygdrive/c/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/Bst.h
+ctype.h
+-
+stdlib.h
+-
+
